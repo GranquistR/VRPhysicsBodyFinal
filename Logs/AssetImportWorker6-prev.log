@@ -1,0 +1,901 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.23f1 (dbb3f7c5b5c6) revision 14398455'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32601 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\2022.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+E:/GIT/VRSwordGame
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+51572
+Successfully changed project path to: E:/GIT/VRSwordGame
+E:/GIT/VRSwordGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19680] Host "[IP] 10.0.0.147 [Port] 0 [Flags] 2 [Guid] 597787786 [EditorId] 597787786 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8UV1A89) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19680] Host "[IP] 10.0.0.147 [Port] 0 [Flags] 2 [Guid] 597787786 [EditorId] 597787786 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8UV1A89) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 27 workers.
+Refreshing native plugins compatible for Editor in 4.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.23f1 (dbb3f7c5b5c6)
+[Subsystems] Discovering subsystems at path E:/Unity/2022.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/GIT/VRSwordGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   32.0.15.7247
+Initialize mono
+Mono path[0] = 'E:/Unity/2022.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2022.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/2022.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2022.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity/2022.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001793 seconds.
+- Loaded All Assemblies, in  0.189 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.148 seconds
+Domain Reload Profiling: 338ms
+	BeginReloadAssembly (56ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (79ms)
+		LoadAssemblies (56ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (78ms)
+			TypeCache.Refresh (77ms)
+				TypeCache.ScanAssembly (69ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (149ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (117ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.368 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.368 seconds
+Domain Reload Profiling: 737ms
+	BeginReloadAssembly (82ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (242ms)
+		LoadAssemblies (172ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (99ms)
+				TypeCache.ScanAssembly (89ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (368ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (274ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4454 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (59.9 KB). Loaded Objects now: 4916.
+Memory consumption went from 155.1 MB to 155.1 MB.
+Total: 3.260500 ms (FindLiveObjects: 0.334800 ms CreateObjectMapping: 0.099500 ms MarkObjects: 2.666600 ms  DeleteObjects: 0.158600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1716833.468867 seconds.
+  path: Assets/Plugins/RealtimeCSG/API/Components/Runtime/CSGOperation.cs
+  artifactKey: Guid(d37e3b4a998463140951027974f2a1a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/API/Components/Runtime/CSGOperation.cs using Guid(d37e3b4a998463140951027974f2a1a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78bc9e82af4e26773ac8455dac2088a5') in 0.080466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/RealtimeCSG/API/Components/Runtime/CSGBrush.cs
+  artifactKey: Guid(218a3c5228e87b54f8102630bb1bfc1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/API/Components/Runtime/CSGBrush.cs using Guid(218a3c5228e87b54f8102630bb1bfc1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b67567a242c97f6bb014ca33bd4594b4') in 0.009019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_remove_front_on.png
+  artifactKey: Guid(7fe91772145c9dc4e87631cf0676d9ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_remove_front_on.png using Guid(7fe91772145c9dc4e87631cf0676d9ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2f6e761a1479be79db8443df60f44912') in 0.037356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_grid_on.png
+  artifactKey: Guid(b52026e6bb6648642b55ddfff9a4c538) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_grid_on.png using Guid(b52026e6bb6648642b55ddfff9a4c538) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '10c2f44b8d527763c4bf5926cb84c448') in 0.010836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/RealtimeCSG/Runtime/Textures/Floor.png
+  artifactKey: Guid(6bdca92006e3ac2418f48650a2e8fcea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Runtime/Textures/Floor.png using Guid(6bdca92006e3ac2418f48650a2e8fcea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae731a3d06e10f5c32221ccdf0dec963') in 0.011943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_snapping_on.png
+  artifactKey: Guid(fa842e4706f6fed41a57a3d65327c982) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_snapping_on.png using Guid(fa842e4706f6fed41a57a3d65327c982) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1fa4dd5c930bf276b69b3cf2d31d35f5') in 0.010659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_wireframe_on.png
+  artifactKey: Guid(4d84ea519e203d143998b5dcadfd3f12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_wireframe_on.png using Guid(4d84ea519e203d143998b5dcadfd3f12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3129be416066f357e7658bb3479595ec') in 0.011856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Plugins/RealtimeCSG/Runtime/Textures/Wall.png
+  artifactKey: Guid(bbde78473e3c32c4a8444168e94b275f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Runtime/Textures/Wall.png using Guid(bbde78473e3c32c4a8444168e94b275f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f00bd8ba26bb9e1b1e2cd3b85ca80fbd') in 0.012070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_remove_front_on.png
+  artifactKey: Guid(9462baa0ec228884bb8dfaf5ee00fd8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_remove_front_on.png using Guid(9462baa0ec228884bb8dfaf5ee00fd8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f863e4172bdb23e99a5bfa8297c1fa67') in 0.010309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_snapping_on.png
+  artifactKey: Guid(749a398e137b0e54c8b0370070c3a476) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_snapping_on.png using Guid(749a398e137b0e54c8b0370070c3a476) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c3359fe34adbf4ba894d3e3d468e7f85') in 0.011699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_rebuild.png
+  artifactKey: Guid(7f01f16dbc2b78143a42103ae832ffba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_rebuild.png using Guid(7f01f16dbc2b78143a42103ae832ffba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '906a08f97920189a8156dc0e7fb2ba57') in 0.010542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Plugins/RealtimeCSG/API/Foundation/Runtime/GeneratedMeshContents.cs
+  artifactKey: Guid(e42fe5fb7d4bbfe4793e18812ffd7d9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/API/Foundation/Runtime/GeneratedMeshContents.cs using Guid(e42fe5fb7d4bbfe4793e18812ffd7d9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8f3769430a11b0f2509e3a8b19be8caf') in 0.006934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Resources/GUI/infobg_blk.png
+  artifactKey: Guid(2a412788ecd58464b9d252abaafc2306) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Resources/GUI/infobg_blk.png using Guid(2a412788ecd58464b9d252abaafc2306) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '24f028df831e93160d69c30f87f3cbf6') in 0.012343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_relsnap_on.png
+  artifactKey: Guid(276783129518d9b47b906c34b9e6316c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pro_relsnap_on.png using Guid(276783129518d9b47b906c34b9e6316c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '773e680bf1a40015f789f7de52005f4c') in 0.010867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/RealtimeCSG/API/Foundation/Editor/CSGTreeNode.cs
+  artifactKey: Guid(7a8b5e825a82cee4b916680025759424) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/API/Foundation/Editor/CSGTreeNode.cs using Guid(7a8b5e825a82cee4b916680025759424) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b00091c603a7c5592b142cafd6d2f9dc') in 0.006758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Plugins/RealtimeCSG/Runtime/Materials/Default.physicMaterial
+  artifactKey: Guid(0c5fdfb44d6f19646a41a0720fbf751a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Runtime/Materials/Default.physicMaterial using Guid(0c5fdfb44d6f19646a41a0720fbf751a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e34d805fdaf6c7aee711441f6e6a2378') in 0.008390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_csg_intersection_small_on.png
+  artifactKey: Guid(e501f8d400b87f94c8cf64c731136d27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_csg_intersection_small_on.png using Guid(e501f8d400b87f94c8cf64c731136d27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4c01d6166cda3112f3063267c3d4ad98') in 0.010973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_grid.png
+  artifactKey: Guid(0d4b8106326180c4cac106894e0d74ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_grid.png using Guid(0d4b8106326180c4cac106894e0d74ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c8d22534486ab240ac5a98ced73fda55') in 0.011096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plugins/RealtimeCSG/API/Foundation/Runtime/CSGOperationType.cs
+  artifactKey: Guid(15f26d8927db30e4ca9e2dce034b68c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/API/Foundation/Runtime/CSGOperationType.cs using Guid(15f26d8927db30e4ca9e2dce034b68c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '68af4d0e1a141a53c201cc2aab300621') in 0.006267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/RealtimeCSG/API/Components/Runtime/CSGModel.cs
+  artifactKey: Guid(8672dcc90e16b0a489a41edf56e016f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/API/Components/Runtime/CSGModel.cs using Guid(8672dcc90e16b0a489a41edf56e016f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f37abaa45172f5a7f241c9f82745f06') in 0.007346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_csg_intersection_small.png
+  artifactKey: Guid(2f2869b056c2e7c4987c8c06ea83dc58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Resources/Icons/icon_pers_csg_intersection_small.png using Guid(2f2869b056c2e7c4987c8c06ea83dc58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '47433763f70f077be496fd3a50ec59ac') in 0.010110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.018246 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/coloredPolygon.shader
+  artifactKey: Guid(9f54f477a0779fa47a9990ce857d0ba7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/coloredPolygon.shader using Guid(9f54f477a0779fa47a9990ce857d0ba7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f2ddbc3bca805b9f5cfd0420c4c29df8') in 0.008977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Plugins/RealtimeCSG/Runtime/Scripts/Managers/CSGSceneManagerRedirector.cs
+  artifactKey: Guid(d401ec4b4e77e8e4e8e6dd8ec1dfd519) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Runtime/Scripts/Managers/CSGSceneManagerRedirector.cs using Guid(d401ec4b4e77e8e4e8e6dd8ec1dfd519) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ffc4262d5e46d9c2af497f54773fccd') in 0.007181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Bindings/NativeMethods.cs
+  artifactKey: Guid(30d69e14083cfe34ca850afe321ebe81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Bindings/NativeMethods.cs using Guid(30d69e14083cfe34ca850afe321ebe81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8164a9d10b155c44870fe06dfead4634') in 0.007193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/RealtimeCSG/Runtime/Scripts/Utility/MeshUtility.cs
+  artifactKey: Guid(1719c6e2392025142950be3111aeba58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Runtime/Scripts/Utility/MeshUtility.cs using Guid(1719c6e2392025142950be3111aeba58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db5828a66f0a2158b8a9699d5e32fcd3') in 0.005994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Plugins/RealtimeCSG/API/Foundation/Editor/Native/CSGTreeBrush.Native.cs
+  artifactKey: Guid(cddbdf3674f0db24bb9bb0d89b363604) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/API/Foundation/Editor/Native/CSGTreeBrush.Native.cs using Guid(cddbdf3674f0db24bb9bb0d89b363604) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3071a68b4234ee77a35f1b7b07b3ba72') in 0.006340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Thirdparty/UnityFBXExporter/readme.md
+  artifactKey: Guid(5499a424ce0788340a524a849ddce232) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Thirdparty/UnityFBXExporter/readme.md using Guid(5499a424ce0788340a524a849ddce232) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c816d026a1b590a18b30609daf983ae3') in 0.005606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/customWire.shader
+  artifactKey: Guid(49f5fe694262c664ea606d7e4de5c13b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/customWire.shader using Guid(49f5fe694262c664ea606d7e4de5c13b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7cb436613a38f7440de9b4fbf6768d51') in 0.006908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/RealtimeCSG/Runtime/Scripts/Managers/CSGSceneManagerInterface.cs
+  artifactKey: Guid(03bfb6be356f5744a9125c1cda729d71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Runtime/Scripts/Managers/CSGSceneManagerInterface.cs using Guid(03bfb6be356f5744a9125c1cda729d71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c7d411bf95d1364c4d43c8c9c7028aa') in 0.007159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/BrushTraits.cs
+  artifactKey: Guid(9ef5add37ee255d41807e4133ae1b345) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/BrushTraits.cs using Guid(9ef5add37ee255d41807e4133ae1b345) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ffd81405f3894d3bf8d11902e4810bf') in 0.006574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/RectangleSelectionManager.cs
+  artifactKey: Guid(24d2482b30f12af48a756e1c0cd0d09b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/RectangleSelectionManager.cs using Guid(24d2482b30f12af48a756e1c0cd0d09b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'beebf65a2b4fe4a0a07db7a646f64217') in 0.007167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Helpers/OperationsUtility.cs
+  artifactKey: Guid(54a2ffa21d6c4fa4f9e3bdd4b1a27647) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Helpers/OperationsUtility.cs using Guid(54a2ffa21d6c4fa4f9e3bdd4b1a27647) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9b530e22c06fbac845ae4f9c1ba6a710') in 0.008138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/customWireDotted.shader
+  artifactKey: Guid(6c395352b705cce48b15f71d45a92edd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/customWireDotted.shader using Guid(6c395352b705cce48b15f71d45a92edd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f3a149e717e4b7ec9287fb092e54750') in 0.006783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/UndoGroup.cs
+  artifactKey: Guid(024b8e856b6c1a04a8d71611fd912a2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/UndoGroup.cs using Guid(024b8e856b6c1a04a8d71611fd912a2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5b16dc581c50a24fb441df98e4bf010f') in 0.006320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Bindings/NativeMethodBindings.cs
+  artifactKey: Guid(36fac49ab628cb94e803b655cfbe86ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Bindings/NativeMethodBindings.cs using Guid(36fac49ab628cb94e803b655cfbe86ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fa28fe8b6f5108589d438efe8594090b') in 0.007582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/UnityCompilerDefineManager.cs
+  artifactKey: Guid(d8ff8c9ad5482c94f8d57d5319f33a2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/Control/Managers/UnityCompilerDefineManager.cs using Guid(d8ff8c9ad5482c94f8d57d5319f33a2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e51fb24c16a37f0c71696e090261eb92') in 0.007939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/customSurface.shader
+  artifactKey: Guid(4174142a3b72b9046a775d4a6f4d9992) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/customSurface.shader using Guid(4174142a3b72b9046a775d4a6f4d9992) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '470f5cfc0866f04e540048f0154a8f56') in 0.006621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/grid.shader
+  artifactKey: Guid(0437091a80948f246ae3e8fa3569fc7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Resources/Shaders/grid.shader using Guid(0437091a80948f246ae3e8fa3569fc7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fc382e56a2d8480548f456d22b39e67e') in 0.006829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.375154 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Selection/ControlMeshState.Selection.cs
+  artifactKey: Guid(dd47fac3207471a4694920e9fc30e04f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Selection/ControlMeshState.Selection.cs using Guid(dd47fac3207471a4694920e9fc30e04f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4e60440454da44dbd0530058cc98e506') in 0.007045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/Utility/TooltipUtility.cs
+  artifactKey: Guid(65c4552c5ec879a40a404cced4db344a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/Utility/TooltipUtility.cs using Guid(65c4552c5ec879a40a404cced4db344a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a0242f48bdd8568fa8fbe3432bb30b9c') in 0.006797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering/PolygonMeshRenderer.cs
+  artifactKey: Guid(e6a03b62c7055bd46989675df994097a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering/PolygonMeshRenderer.cs using Guid(e6a03b62c7055bd46989675df994097a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ed5c6ccb70478c180c17da36f0e4062') in 0.006263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Thirdparty/UnityFBXExporter/Editor/ExporterMenu.cs
+  artifactKey: Guid(fa6401f63fa3752499a997f894008633) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Thirdparty/UnityFBXExporter/Editor/ExporterMenu.cs using Guid(fa6401f63fa3752499a997f894008633) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae3f31c4c499fd703aa1ae6a55178775') in 0.005718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/SceneViewBottomBarGUI/SceneViewBottomBar.GUIContents.cs
+  artifactKey: Guid(e3c719f1b8f3c98469158f7d0eb1fb59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/SceneViewBottomBarGUI/SceneViewBottomBar.GUIContents.cs using Guid(e3c719f1b8f3c98469158f7d0eb1fb59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fb316ea0ebe3799fbd93b58aa41bc9d5') in 0.007382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering/RotationCircle.cs
+  artifactKey: Guid(0ac9a2e8fe3eb8b4bbc28210efabf383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering/RotationCircle.cs using Guid(0ac9a2e8fe3eb8b4bbc28210efabf383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3213342f0a6ba10ddf5c1c2d23db1fdc') in 0.007273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.SpiralStairs.GUI.cs
+  artifactKey: Guid(2440b0dd96634ff479f13ad0cf94dd3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.SpiralStairs.GUI.cs using Guid(2440b0dd96634ff479f13ad0cf94dd3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c4959f776b5026e214de854a80912f98') in 0.006785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/ComponentEditorWindows/CSGModelComponent.Inspector.GUIContents.cs
+  artifactKey: Guid(00c689bc9de4bb3448577deeb99436f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/ComponentEditorWindows/CSGModelComponent.Inspector.GUIContents.cs using Guid(00c689bc9de4bb3448577deeb99436f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e07f9e1d6ab16b795701c1057f3fbdf4') in 0.006635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Handles/CSGSlider2D.cs
+  artifactKey: Guid(510ea55af1c6b5340b3d532acd27a18b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Handles/CSGSlider2D.cs using Guid(510ea55af1c6b5340b3d532acd27a18b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bd42fdeb1256f827b401aeb5b663dc34') in 0.007214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.SpiralStairs.Settings.cs
+  artifactKey: Guid(d5089e8ada95afd4d9f83e4a7833b55d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.SpiralStairs.Settings.cs using Guid(d5089e8ada95afd4d9f83e4a7833b55d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4c6ce2c23774759de0d965e32573df24') in 0.007026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/IShapeSettings.cs
+  artifactKey: Guid(4c39e96d4b61a904ba21cb7ad01a5dfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/IShapeSettings.cs using Guid(4c39e96d4b61a904ba21cb7ad01a5dfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '34e0ac1fb889f4a6ce96b0ce526c848d') in 0.006769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/PreferenceWindows/CSGKeys.PreferenceWindow.cs
+  artifactKey: Guid(5341e8d34af89754cb497a7149b3800d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/PreferenceWindows/CSGKeys.PreferenceWindow.cs using Guid(5341e8d34af89754cb497a7149b3800d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '195fecd9f29242d5f0f154092303277e') in 0.007165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering/BrushOutlineRenderer.cs
+  artifactKey: Guid(b31ab5d84152b6345b475cdb91fcaa3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/Rendering/BrushOutlineRenderer.cs using Guid(b31ab5d84152b6345b475cdb91fcaa3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78454a4f574695cd7e05165708e8adfc') in 0.022085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Common.GUIContents.cs
+  artifactKey: Guid(889da007a59ec504386d92b2b2a685a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Common.GUIContents.cs using Guid(889da007a59ec504386d92b2b2a685a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b2459706e97bfa2811649c65d2051f1f') in 0.006339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/View/DragAndDrop/SceneDragToolManager.cs
+  artifactKey: Guid(398ba7ddb1f722741986b6dff3f35420) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/View/DragAndDrop/SceneDragToolManager.cs using Guid(398ba7ddb1f722741986b6dff3f35420) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a4c9fd19d15df41b717ee93326c07e6') in 0.007646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Settings/ColorSettings.cs
+  artifactKey: Guid(0de8cbe002663c7449634035320b601c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/Data/Settings/ColorSettings.cs using Guid(0de8cbe002663c7449634035320b601c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1836caa200b11732ffb9b47ce3e451af') in 0.006791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/SceneToolRenderer.cs
+  artifactKey: Guid(82ba1cec3f33ae54a853f3bf7275b72f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/View/Scene/SceneToolRenderer.cs using Guid(82ba1cec3f33ae54a853f3bf7275b72f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb7a7b51f2e9035902c8855b062b798c') in 0.007500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.SpiralStairs.cs
+  artifactKey: Guid(a88b5e7608fadf84abb0dcd1524c4457) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/Generators/Generator.SpiralStairs.cs using Guid(a88b5e7608fadf84abb0dcd1524c4457) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '89609f3974601f4540f72c650e351d10') in 0.006837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Generate.GUIContents.cs
+  artifactKey: Guid(568f41f9186e2fa4396b9938e40e310b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/RealtimeCSG/Editor/Scripts/View/GUI/EditModeGUI/EditModes/EditMode.Generate.GUIContents.cs using Guid(568f41f9186e2fa4396b9938e40e310b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9bc6cd77434a23989f3b5dcbdc3c70fb') in 0.007158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 31.529209 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/Hand Expression Captures/Grab Expression Capture.asset
+  artifactKey: Guid(3861c298d39c60c44b16920421444875) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/Hand Expression Captures/Grab Expression Capture.asset using Guid(3861c298d39c60c44b16920421444875) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a5c8048d8d975467c07a33002332bf10') in 0.013870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples
+  artifactKey: Guid(4c87c3ccfa51a4448b508342938efe8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples using Guid(4c87c3ccfa51a4448b508342938efe8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '016b8f3bb09fbbe6873a5a33ab1aeb9c') in 0.005430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/Hands/Hand_Fist.png
+  artifactKey: Guid(a6e9e9736379c164e81fdfd2c806a91c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/Hands/Hand_Fist.png using Guid(a6e9e9736379c164e81fdfd2c806a91c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '942da8104eb7b89d3f377eaaa1b5c5d3') in 0.014015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/Hands/Hand_Grab.png
+  artifactKey: Guid(bd6b9153aa3b96f49b238bbf6ae68b80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/Hands/Hand_Grab.png using Guid(bd6b9153aa3b96f49b238bbf6ae68b80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c60c1828d088a254a78f2e3ce810a2cb') in 0.013875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/ControllerDevice/ControllerLeft.png
+  artifactKey: Guid(10abf1be8eef148d4aa4b96b2af7a9f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/ControllerDevice/ControllerLeft.png using Guid(10abf1be8eef148d4aa4b96b2af7a9f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '49564d914eddab5316dc800f9ccbb81a') in 0.012258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef
+  artifactKey: Guid(a0c6cb4ff4b70b44e933543a342fb2b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef using Guid(a0c6cb4ff4b70b44e933543a342fb2b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'faaa7911ada66a91703c99e41c80518b') in 0.006247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/Hands/Hand_Open.png
+  artifactKey: Guid(ceccab26080354140af21950c6d338d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/Hands/Hand_Open.png using Guid(ceccab26080354140af21950c6d338d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd4f34ead35dc089d58a01a9271c6f5c0') in 0.012996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/HeadDevice
+  artifactKey: Guid(01820cd5d6cab46b9afde2261f687a48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/UI/HeadDevice using Guid(01820cd5d6cab46b9afde2261f687a48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b6f62af9bb8ed83f8038048058d65c92') in 0.006769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/XR Device Simulator.prefab
+  artifactKey: Guid(18ddb545287c546e19cc77dc9fbb2189) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.4/XR Device Simulator/XR Device Simulator.prefab using Guid(18ddb545287c546e19cc77dc9fbb2189) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5c0126078638f040e38dc1845416169a') in 0.039700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 823
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.264 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.475 seconds
+Domain Reload Profiling: 738ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
+		LoadAssemblies (155ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (475ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (239ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (184ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (33.5 KB). Loaded Objects now: 4924.
+Memory consumption went from 152.6 MB to 152.6 MB.
+Total: 2.581400 ms (FindLiveObjects: 0.177900 ms CreateObjectMapping: 0.061700 ms MarkObjects: 2.282100 ms  DeleteObjects: 0.059100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.256 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.486 seconds
+Domain Reload Profiling: 741ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (123ms)
+		LoadAssemblies (160ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (486ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (244ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 2.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4435 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (32.8 KB). Loaded Objects now: 4927.
+Memory consumption went from 154.8 MB to 154.8 MB.
+Total: 2.240300 ms (FindLiveObjects: 0.352800 ms CreateObjectMapping: 0.104300 ms MarkObjects: 1.727700 ms  DeleteObjects: 0.048800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.251 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.494 seconds
+Domain Reload Profiling: 745ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (154ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (494ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (242ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (188ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4435 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (33.8 KB). Loaded Objects now: 4930.
+Memory consumption went from 156.7 MB to 156.7 MB.
+Total: 2.515400 ms (FindLiveObjects: 0.346800 ms CreateObjectMapping: 0.136100 ms MarkObjects: 1.958100 ms  DeleteObjects: 0.073400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
