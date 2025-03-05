@@ -8,17 +8,23 @@ using UnityEngine.XR;
 public class RollerBallLocomote : MonoBehaviour
 {
     public InputActionReference playerMove; // Reference to the player's movement input
+    public InputActionReference playerRun; // Reference to the player's run input
     public Transform forwardDirection; // Reference to the forward direction of the player (headset/controller)
     public Rigidbody rollerBall; // Reference to the Roller Ball rigidbody
+
+    public float walkSpeed = 1.0f;
+    public float runSpeed = 2.0f;
 
     private void OnEnable()
     {
         playerMove.action.Enable();
+        playerRun.action.Enable();
     }
 
     private void OnDisable()
     {
         playerMove.action.Disable();
+        playerRun.action.Disable();
     }
 
     // Start is called before the first frame update
@@ -31,16 +37,20 @@ public class RollerBallLocomote : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        InputDevices
-          .GetDeviceAtXRNode(XRNode.Head)
-          .TryGetFeatureValue(UnityEngine.XR.CommonUsages.deviceVelocity, out Vector3 cameraVelocity);
-
         Vector3 moveVelocity = GetControllerMoveVelocity();
 
-        Vector3 desiredAngularVelocity = new Vector3(moveVelocity.z + cameraVelocity.z, 0, -moveVelocity.x - cameraVelocity.x) / 0.2f;
+        Vector3 desiredAngularVelocity = new Vector3(moveVelocity.z, 0, -moveVelocity.x);
 
-        // Apply torque to achieve the desired angular velocity
-        rollerBall.AddTorque(desiredAngularVelocity - rollerBall.angularVelocity, ForceMode.VelocityChange);
+        if (playerRun.action.ReadValue<float>() > 0)
+        {
+            desiredAngularVelocity *= runSpeed;
+        }
+        else
+        {
+            desiredAngularVelocity *= walkSpeed;
+        }
+
+        rollerBall.AddTorque(desiredAngularVelocity, ForceMode.VelocityChange);
     }
 
     private Vector3 GetControllerMoveVelocity()
