@@ -35,7 +35,7 @@ public class RollerBallLocomote : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         Vector3 moveVelocity = GetControllerMoveVelocity();
 
